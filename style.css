@@ -13,6 +13,7 @@ body{
     width: 100%;
     gap: 10px;
     padding: 10px;
+    height: 100vh;
 }
 .item1{
     display: grid;
@@ -83,6 +84,10 @@ body{
 }
 .social img{
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social p{
+    margin-bottom: 20px;
 }
 .item3{
     display: grid;
