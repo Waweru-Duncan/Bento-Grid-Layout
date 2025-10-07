@@ -5,15 +5,17 @@
 body{
     background-color: hsl(0, 0%, 100%);
     font-family: DM Sans;
+    
 }
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 100%;
+    width: 98%;
     gap: 10px;
     padding: 10px;
-    height: 100vh;
+    min-height: 100vh;
+    
 }
 .item1{
     display: grid;
